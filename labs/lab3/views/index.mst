@@ -1,0 +1,14 @@
+{{> head}}
+   <title>Home</title>
+   {{> header}}
+   <img id="header_img" src="./images/doge.png" width = 75 alt="home" >
+   <h1 id="header_h1">Головна</h1>
+   </div>
+   {{> menu}}
+   <div class ="content_block">
+   Даний сайт призначений для перегляду можливих мов програмування та додавання нових у разі потреби.
+ {{> footer}}
+ </div>
+</body>
+</html>
+    

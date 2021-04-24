@@ -1,0 +1,29 @@
+
+{{> head}}
+<title>New language</title>
+ {{> header}}
+    <h1 id="header_h1">Додання нової мови програмування</h1>
+    </div>
+    {{> menu}}
+    <div class="table_block">
+    <form enctype="multipart/form-data" action="/proglanguages" method="POST">
+    Введіть назву<br>
+    <input class="new_data" type="text" name="name"><br>
+    Введіть ім'я засновника<br>
+    <input class="new_data" type="text" name="founderName"><br>
+    Введіть останню версію<br>
+    <input class="new_data" type="text" name="lastversion"><br>
+    Введіть кількість користувачів<br>
+    <input class="new_data" type="number" name="countofusers"><br>
+    Введіть останню дату змін<br>
+    <input class="new_data" type="date" name="lasteditData" pattern="^(0?[1-9]|[12][0-9]|3[01])[-](0?[1-9]|1[012])[-]\d{4}$"><br>
+    <input class="new_data" type="file" name="image" accept="image/*"><br>
+    <input class="new_data" type="submit" name="submit" value="Додати">
+    </form>
+    {{#invalid}}
+    <p>Заповніть всі поля</p>
+    {{/invalid}}
+    </div>
+    {{> footer}}
+</body>
+</html>

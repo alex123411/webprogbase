@@ -1,0 +1,23 @@
+{
+    "nextId": 9,
+    "items": [
+        {
+            "id": 1,
+            "login": "admin",
+            "fullname": "Admin Admin",
+            "role": "1",
+            "registeredAt": "2011-10-05T14:48:00.000Z",
+            "avaUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F240590805079467157%2F&psig=AOvVaw2u2qEtR0MEjU0qXKp-3yup&ust=1602513516595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjPh53irOwCFQAAAAAdAAAAABAP",
+            "isEnabled": "Enabled"
+        },
+        {
+            "id": 2,
+            "login": "testUser",
+            "fullname": "Test User",
+            "role": "0",
+            "registeredAt": "2012-11-05T14:49:00.000Z",
+            "avaUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsoundcloud.com%2Fspike-spiegel-416073879&psig=AOvVaw2u2qEtR0MEjU0qXKp-3yup&ust=1602513516595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjPh53irOwCFQAAAAAdAAAAABAV",
+            "isEnabled": "unEnabled"
+        }
+    ]
+}

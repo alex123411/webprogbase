@@ -1,0 +1,33 @@
+{
+    "nextId": 15,
+    "items": [
+        {
+            "id": 2,
+            "path": "123"
+        },
+        {
+            "id": 9,
+            "path": "data/media/cfa7f5a5cc8995e15006523133a052ba"
+        },
+        {
+            "id": 10,
+            "path": "data/media/194cb7339aa04d9ef5a2960e60e4b8a4"
+        },
+        {
+            "id": 11,
+            "path": "data/media/51d5e77454c5fa7926c7da6446c546ac"
+        },
+        {
+            "id": 12,
+            "path": "data/media/5e436efb74cc71de613838bbb15951f7"
+        },
+        {
+            "id": 13,
+            "path": "data/media/e5eccb95240626a5d5f92e7645016beb"
+        },
+        {
+            "id": 14,
+            "path": "data/media/83b56f21126c4f54046e243f4c5c6f77"
+        }
+    ]
+}

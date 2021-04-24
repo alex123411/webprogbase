@@ -1,0 +1,32 @@
+
+<div class="menu_block">
+<menu>
+   {{#is_home}}
+   <li class="menu_li" id="current_page"><a href='/'>HOME</a></li>
+   {{/is_home}}
+   {{^is_home}}
+   <li class="menu_li"><a href='/'>HOME</a></li>
+   {{/is_home}}
+ 
+   {{#is_users}}
+   <li class="menu_li" id="current_page"><a href= '/users'>USERS</a></li>
+   {{/is_users}}
+   {{^is_users}}
+   <li class="menu_li"><a href= '/users'>USERS</a></li>
+   {{/is_users}}
+ 
+   {{#is_proglanguages}}
+   <li class="menu_li" id="current_page"><a href= '/proglanguages'>PROGLANGS</a></li>
+   {{/is_proglanguages}}
+   {{^is_proglanguages}}
+   <li class="menu_li"><a href= '/proglanguages'>PROGLANGS</a></li>
+   {{/is_proglanguages}}
+ 
+   {{#is_about}}
+   <li class="menu_li" id="current_page"><a href= '/about'>ABOUT</a></li>
+   {{/is_about}}
+   {{^is_about}}
+   <li class="menu_li"><a href= '/about'>ABOUT</a></li>
+   {{/is_about}}
+</menu>
+</div>

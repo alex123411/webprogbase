@@ -1,0 +1,19 @@
+{{> head}}
+   <title>User</title>
+   {{> header}}
+   <h1 id="header_h1">Інформація про користувача</h1>
+   </div>
+   {{> menu}}
+   <div class="user_block">
+     <img id="user_img" src="{{avaUrl}}" width = 100 alt="user ava" >
+     <div id="user_info">
+       <strong>{{fullname}}</strong><br>({{login}}) {{registeredAt}}
+     </div>
+     <div class="bio_block">
+     <p>role:{{role}}<br>isEnabled:{{isEnabled}}<br>id:{{id}}</p>
+     </div>
+   </div>
+{{> footer}}
+</body>
+</html>
+

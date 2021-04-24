@@ -1,0 +1,16 @@
+
+{{> head}}
+<title>About</title>
+ {{> header}}
+<img id="header_img" src="https://static.onecms.io/wp-content/uploads/sites/34/2018/05/12170411/cat-kitten-138468381.jpg" width = 120 alt="question mark">
+<h1 id="header_h1">Додатково про сайт та автора</h1>
+</div>
+{{> menu}}
+<main>
+<div class ="content_block">Даний сайт був створений студентом КПІ Торговським Олександром з групи КП-93.
+<br>Сайт був створений для лабораторної роботи №3 за допомогою вреймворку <strong>Express</strong> <br>Та шаблонізатора <strong> Mustache</strong>  
+{{> footer}}
+</div>
+</main>
+</body>
+</html>

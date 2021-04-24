@@ -1,0 +1,30 @@
+{{> head}}
+  <title>Progrmaing language</title>
+   {{> header}}
+   <img id="header_img" src="https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg"  width = 100 alt="proglanguage">
+   <h1 id="header_h1">Інформація про {{name}}</h1>
+   </div>
+   {{> menu}}
+    <div class ="content_proglanguage_block">
+    {{#is_deleted}}
+    <p>Видалено</p>
+    {{/is_deleted}}
+    {{^is_deleted}}
+    
+    <img  id="user_img" src="/{{path}}" width=80 alt="lang image"><br>
+    
+     id: {{id}} <br>
+   Назва: {{name}}<br>
+   Розробник: {{founderName}}<br>
+   Остання версія: {{lastversion}}<br>
+   Кільікість користувачів: {{countofusers}}<br>
+   Дата останньої зміни: {{lasteditData}}
+   <form action="/proglanguages/{{id}}" method="POST">
+   <input class ="new_data" type="submit" name="delete" value="Видалити">
+   </form>  
+   {{/is_deleted}} 
+{{> footer}}
+   </div>
+
+</body>
+</html>

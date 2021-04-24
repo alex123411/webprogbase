@@ -1,0 +1,34 @@
+{{> head}}
+   <title>Proglanguages</title>
+ {{> header}}
+   <img id="header_img" src="images/c++_logo.png" width = 70 alt="proglanguage">
+   <h1 id="header_h1">Список  мов</h1>
+   </div>
+   {{> menu}}
+   <div class="table_block">
+   <form action="/proglanguages/" method="GET">
+   Пошук по назві:<br>
+   <input type="text" name="name_search" value={{search}}><br>
+   </form>
+   {{#Empty}}
+   <p>Жодних співпадінь</p>
+   {{/Empty}}
+   <table>
+   {{#new_proglanguages}}
+     <tr>
+       <td id="table"><a class="table" href=/proglanguages/{{id}}>{{name}}</a></td>
+     </tr>
+     {{/new_proglanguages}}
+   </table>
+   </div>
+   <form class="buttons" action="/proglanguages" method="GET">
+   {{#pages}}
+   <input class="buttons" type="submit"  name="page" value={{page}}>
+   {{/pages}}
+   {{> footer}}
+   <input hidden type="text" name="name_search" value={{search}}>
+   </form>
+   <button class="new"><a href='/proglanguages/new'>Додати нову</button>
+
+</body>
+</html>

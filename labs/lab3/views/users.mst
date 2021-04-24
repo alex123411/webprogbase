@@ -1,0 +1,25 @@
+{{> head}}
+   <title>Users</title>
+ {{> header}}
+   <img id="header_img" src='./images/user_logo.jpg' width = 75 alt="user">
+   <h1 id="header_h1">Користувачі</h1>
+   </div>
+   {{> menu}}
+   <div class="table_block">
+   <table>
+   <tr>
+     <td id="table"><strong>Login</strong></td>
+     <td id="table"><strong>Fullname</strong></td>
+     <td id="table"><strong>Registration date</strong></td>
+   </tr>
+   {{#new_users}}
+     <tr>
+       <td id="table"><a class="table"  href=/users/{{id}}>{{login}}</a></td>
+       <td id= "table">{{fullname}}</td>
+       <td id="table">{{registeredAt}}</td>
+     </tr>
+     {{/new_users}} 
+   </table>
+{{> footer}}
+</body>
+</html>
